@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(233, 233, 217);
+    color: maroon;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h1{
+    font-size: xx-large;
+
+}
+header {
+    color: maroon;
+    font-weight: bold;
+    text-align: center;
+}
+header small{
+    font-style: italic;
+    font-family: cursive;
+    margin-top: -10px;
+}
+.selector{
+    display: flex;
+    justify-content: right;
+
+}
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -30px;
+
+}
+
+.logo-container img {
+    margin-right: 10px;
+}
