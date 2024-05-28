@@ -13,6 +13,21 @@ header {
     font-weight: bold;
     text-align: center;
 }
+table {
+    width: 30%;
+    margin-left: 38%;
+    margin-right: 40%;
+}
+thead{
+
+    text-align: left;
+}
+tbody{
+    text-align: left;
+}
+.table {
+    text-align: center;
+}
 header small{
     font-style: italic;
     font-family: cursive;
@@ -35,4 +50,28 @@ header small{
 
 .logo-container img {
     margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+    font-style: italic;
+    
 }
