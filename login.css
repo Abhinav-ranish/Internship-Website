@@ -62,6 +62,13 @@ button{
     padding: 5px;
     margin: 5px;
   }
+
+  .success {
+    background: greenyellow;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }
   
 
   .logo-container {
