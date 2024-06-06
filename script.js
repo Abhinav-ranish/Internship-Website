@@ -4,6 +4,8 @@ const users = [
     { email: 'root@redacted.com', password: 'root' }
 ];
 
+document.addEventListener('contextmenu', event => event.preventDefault());
+
 document.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
     
