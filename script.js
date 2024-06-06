@@ -1,7 +1,7 @@
 const users = [
-    { email: 'a.kizhakke@QFCRA.com', password: 'admin123' },
-    { email: 'kt.rinith@QFCRA.com', password: 'toor' },
-    { email: 'karmil@QFCRA.com', password: 'root' }
+    { email: 'habibi@redacted.com', password: 'admin123' },
+    { email: 'toor@redacted.com', password: 'toor' },
+    { email: 'root@redacted.com', password: 'root' }
 ];
 
 document.addEventListener('DOMContentLoaded', (event) => {
